@@ -1,0 +1,15 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "package.json.description",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'Hello World!'"
+  },
+  "author": "",
+  "license": "ISC",
+  "test": "mocha -R mocha-multi --reporter-options spec=-,json=.results.json",
+  "dependencies": {
+    "moment": "^2.27.0"
+  }
+}
